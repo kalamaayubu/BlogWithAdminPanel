@@ -7,7 +7,7 @@ const mockArticles = [
     author: 'Joseph Murphy',
     authorImg: '/src/assets/joseph1.jpg',
     authorDescription: 'Dr. Joseph Murphy (1898–1981) was an influential author and speaker in the field of self-help and spirituality. Best known for his book "The Power of Your Subconscious Mind," he emphasized the transformative power of positive thinking and the subconscious mind in achieving personal goals and improving one’s life. Murphy blended concepts from psychology, religion, and metaphysics, advocating that individuals can unlock their potential through visualization, affirmation, and the power of belief. His teachings have inspired countless individuals to harness their inner strengths for personal and professional success.',
-    image: '/src/assets/image2.jpeg',
+    image: '/assets/image2.jpeg',
     title: 'Mind & Soul',
     subtitle: 'Nourishement of all of your faculties',
     summary: 'Summary of the first article...',
@@ -15,17 +15,17 @@ const mockArticles = [
     likes: 22,
     comments: 5,
     content: {
-      hero: '/src/assets/image3.jpeg',
+      hero: '/assets/image3.jpeg',
       text: 'Full content for the FIRST article...',
-      images: ['/src/assets/image1.jpeg', '/src/assets/image2.jpeg'],
+      images: ['/assets/image1.jpeg', '/assets/image2.jpeg'],
     },
   },
   {
     id: "2",
     author: "Orrison Marden",
-    authorImg: "/src/assets/lady.jpeg",
+    authorImg: "/assets/lady.jpeg",
     authorDescription: "Orison Swett Marden (1850–1924) was an American author, businessman, and inspirational speaker known for his writings on success and personal development. He founded the magazine Success and wrote several influential books, including Pushing to the Front and The Victorious Attitude. Marden's work emphasized the importance of a positive mindset, hard work, and perseverance in achieving success. His ideas contributed to the self-help movement and continue to inspire individuals seeking personal and professional growth.",
-    image: "/src/assets/image3.jpeg",
+    image: "/assets/image3.jpeg",
     title: "Body & Fitness",
     subtitle: "Strenghthening the body, the house for both the mind & soul",
     summary: "Recent research show that the wellness (mind and soul) and poise of a physically fit person is 67% better than one who is weak and fllabby. Lets explore the exiting statistics",
@@ -33,11 +33,11 @@ const mockArticles = [
     likes: 34,
     comments: 3,
     content: {
-      hero: "/src/assets/image3.jpeg",
+      hero: "/assets/image3.jpeg",
       text: "Full content for the SECOND article. Includes headings, subheadings, and more text.",
       images: [
-        "/src/assets/image4.webp",
-        "/src/assets/image5.webp"
+        "/assets/image4.webp",
+        "/assets/image5.webp"
       ]
     }
   }
