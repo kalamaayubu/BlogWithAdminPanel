@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Recent Posts Slider styles */
+/* Container to manage margin and image dimensions */
+.slider-container {
+    margin: 0 auto; /* Center the slider */
+    padding: 5px; /* Adds padding around the slider */
+    width: 92%; /* Adjust based on your design */
+    max-width: 1300px;
+  }
+  
+  .slider-item {
+    padding: 0 1px; /* Adds margin between images (px total, 5px each side) */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  }
+  
+  .slider-image {
+    width: 100%; /* Full width for the container */
+    height: 300px; /* Consistent height for all images */
+    object-fit: cover; /* Ensures images maintain aspect ratio while filling the container */
+    display: block; /* Removes default margin or padding around images */
+  }
+  
